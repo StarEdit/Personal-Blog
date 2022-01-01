@@ -1,0 +1,90 @@
+@media screen and (max-width: 768px) {
+    .navbar>.container-fluid {
+        justify-content: flex-end;
+    }
+    .navbar-btn {
+        margin-right: 4rem;
+    }
+    .navbar-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        color: rgb(160, 102, 102);
+    }
+    .blog-nav__item {
+        margin-left: 0;
+        font-size: 2.6rem;
+    }
+    .sub-nav__list {
+        background-color: inherit;
+        border: none;
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
+    .content {
+        font-size: 1.6rem;
+    }
+    .content h2 {
+        font-size: 2.6rem;
+    }
+    .content img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .content-wrap {
+        flex-direction: column;
+    }
+    .text {
+        width: 96%;
+        margin-top: 2rem;
+        text-align: justify;
+    }
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-label {
+        padding: 0;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .form-message {
+        position: static;
+        margin: 1rem;
+    }
+    #message {
+        margin: 0;
+    }
+    .form-submit {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .sub-nav__list {
+        top: 114%;
+    }
+    .content img {
+        width: 48%;
+        margin-bottom: 1rem;
+    }
+    .text {
+        width: 56%;
+    }
+    .form-label {
+        min-width: 24%;
+    }
+}

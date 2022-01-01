@@ -1,0 +1,114 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Dancing Script', sans-serif;
+    box-sizing: border-box;
+    color: rgb(165, 42, 42);
+    font-weight: 400;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-size: 2rem;
+    min-width: 14%;
+    padding: 2rem 0;
+}
+
+.form-control {
+    padding: 1rem;
+    width: 50%;
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: inherit;
+}
+
+.form-control::placeholder {
+    color: inherit;
+}
+
+.input-mess,
+.deliver-mess {
+    margin-top: 1.6rem;
+}
+
+#message {
+    margin-bottom: 1rem;
+}
+
+.form-submit {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: rgb(165, 42, 42);
+    border: none;
+    color: white;
+    font-family: inherit;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #3c6ff0;
+    transition: linear 0.4s;
+}
+
+.form-group.error .form-control {
+    border-color: #e74c3c;
+}
+
+.form-group.success .form-control {
+    border-color: #2ecc71;
+}
+
+.form-message {
+    position: absolute;
+    top: 6rem;
+    left: 32%;
+    color: red;
+    font-size: 2rem;
+}
+
+.input-mess .form-message {
+    top: 96%;
+}
+
+.deliver-mess .form-message {
+    top: 100%;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.box-item {
+    font-size: 2rem;
+}
+
+.radio-data {
+    width: 50%;
+    display: flex;
+}
+
+.radio-data-item {
+    margin-right: 2rem;
+    font-size: 2rem;
+}
